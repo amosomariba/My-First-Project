@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #1b281b;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    /* padding-left: 50px; */
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    margin-block:30px ;
+}
+
+section {
+    margin-block: 100px;
+}
+
+.wrapper {
+    border: 5px red dashed;
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+
+h1{
+    
+    font-weight: 700;
+    color: #4676a9;
+    text-align: center;
+    font-size: 7.5rem;
+    line-height: 1.1;
+   
+}
+
+.teal-bg {
+    background-color:#087A98 ;
+    padding: 20px;
+    color: #ffffff;
+    border: #0b4a5a solid 5px;
+
+}
+
+.teal-bg strong {
+    color: yellow;
+}
+
+a {
+    color: green;
+}
+
+
+
+.teal-text {
+    color:#087A98 ;
+}
+
+a:hover, a:focus-visible{
+    color: rgb(88, 148, 73);
+}
+
+.climber-bg {
+    background-image: url("../images/simple-steps.jpg");
+    color: white;
+    border: #0b4a5a solid 10px;
+    padding: 25px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+li {
+    margin-block: 5px;
+}
+
+
+h2 {
+    color: #cb721c;
+    font-size: 2.5rem; 
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+ol{
+    list-style: lower-alpha;
+    list-style-position: outside;
+}
+
+ul {
+    list-style: circle;
+    list-style-position: outside;
+    color: black;
+}
+
+li::marker {
+    color: red;
+}
+
+
+footer {
+   
+    text-align: center;
+    
+    
+}
+
